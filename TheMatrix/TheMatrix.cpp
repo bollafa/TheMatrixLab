@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Matrix.h"
+#include <Eagle\Matrix.h>
 #include <random>
 #include <ctime>
 std::random_device rd;     // only used once to initialise (seed) engine

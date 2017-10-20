@@ -5,7 +5,13 @@ VisualStudioVersion = 15.0.26823.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TheMatrix", "TheMatrix\TheMatrix.vcxproj", "{2DFE0C31-368E-41EC-94B3-4EC34BBD8510}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MatrixAPI", "MatrixAPI\MatrixAPI.vcxitems", "{06DF8AB2-959C-419A-A208-6300D0DA8231}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		MatrixAPI\MatrixAPI.vcxitems*{06df8ab2-959c-419a-a208-6300d0da8231}*SharedItemsImports = 9
+		MatrixAPI\MatrixAPI.vcxitems*{2dfe0c31-368e-41ec-94b3-4ec34bbd8510}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
